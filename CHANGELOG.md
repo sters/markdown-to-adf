@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.0.1](https://github.com/sters/markdown-to-adf/commits/v0.0.1) - 2026-09-30
+
+- Bump github.com/go-viper/mapstructure/v2 from 2.2.1 to 2.4.0 by @dependabot[bot] in https://github.com/sters/markdown-to-adf/pull/5
+- Bump actions/setup-go from 6 to 7 by @dependabot[bot] in https://github.com/sters/markdown-to-adf/pull/4
+- Bump goreleaser/goreleaser-action from 6 to 7 by @dependabot[bot] in https://github.com/sters/markdown-to-adf/pull/3
+- Bump actions/checkout from 6 to 7 by @dependabot[bot] in https://github.com/sters/markdown-to-adf/pull/1
+- Bump actions/attest-build-provenance from 3 to 4 by @dependabot[bot] in https://github.com/sters/markdown-to-adf/pull/2
+
 ## [v0.5.3](https://github.com/sters/go-project-boilerplate/compare/v0.5.2...v0.5.3) - 2026-02-08
 
 ## [v0.5.2](https://github.com/sters/go-project-boilerplate/compare/v0.5.1...v0.5.2) - 2026-02-07
