@@ -6,6 +6,11 @@ on:
 
 jobs:
   tagpr:
+    # Only this job is cancelled by a newer push; a release cut halfway would
+    # leave a draft release with partial assets.
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: true
     runs-on: ubuntu-latest
     permissions:
       contents: write
