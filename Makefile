@@ -34,4 +34,4 @@ tidy:
 
 .PHONY: build
 build:
-	go build -ldflags "$(LDFLAGS)" -o bin/app .
+	go build -ldflags "$(LDFLAGS)" -o bin/markdown-to-adf .

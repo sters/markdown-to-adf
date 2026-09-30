@@ -1,4 +1,4 @@
-module github.com/sters/go-project-boilerplate
+module github.com/sters/markdown-to-adf
 
 go 1.24
 
